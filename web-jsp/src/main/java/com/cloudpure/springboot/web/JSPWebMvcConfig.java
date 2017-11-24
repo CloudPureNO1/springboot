@@ -12,7 +12,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 public class JSPWebMvcConfig extends WebMvcConfigurerAdapter{
 
     public InternalResourceViewResolver viewResolver(){
-        InternalResourceViewResolver viewResolver=new InternalResourceViewResolver();
+        InternalResourceViewResolver viewResolver=new InternalResourceViewResolver()
     }
 
 
