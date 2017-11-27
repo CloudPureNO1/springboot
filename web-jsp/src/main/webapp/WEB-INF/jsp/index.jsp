@@ -8,9 +8,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Jsp Page</title>
 </head>
 <body>
-
+MSG:${msg}<br/>
+UserName:${username}<br/>
+Welcome:${welcome}<br/>
+Hello:${hello}
 </body>
 </html>
